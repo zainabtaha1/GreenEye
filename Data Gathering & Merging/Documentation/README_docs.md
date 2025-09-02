@@ -27,11 +27,6 @@ This folder contains documentation for the project datasets, including:
 ---
 
 ## Folder Structure
-Data_Gathering_&_Merging/
-├── Fayoum/         # CSV files for Fayoum region
-├── NewValley/      # CSV files for New Valley region
-├── ...             # Other regions
-└── combined_data.csv  # All regions merged into a single dataset
 
 - Each region folder contains **monthly CSV files** sampled from GEE.  
 - `combined_data.csv` contains **all regions merged** into a single dataset.
@@ -73,6 +68,7 @@ All CSV files contain the following columns:
 - Population data was extracted **using the same grid points as the other datasets** to ensure proper alignment.  
 - All datasets were **pre-processed and merged** using the provided Python script (`merge_data.py`) to generate `combined_data.csv`.  
 - The structure is designed to facilitate **easy analysis and modeling**.
+
 
 
 
